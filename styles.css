@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    float: right;
+    line-height: normal;
+    padding-top: 15px;
+    padding-right: 13px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.mail-btn {
+    padding: 20px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.images-btn {
+    padding: 20px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    width: 20%;
+    top: 35%;
+}
+
+
+.search-bar {
+    display: flex;
+    height: 44px;
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.search-bar:hover {
+    box-shadow: 0px 2px 4px 0px #9aa0a6;
+}
+
+.search-icon{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    margin-top: -3px;
+    margin-left: 12px;
+}
+
+.form-bar {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+
+}
+
+input {
+    width: 31vw;
+    height: 5vh;
+    outline: none;
+    border: none;
+	border-radius: 24px;
+	font-size:16px;
+    margin-top: 1.5px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.search-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 15px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+.search-btn:hover {
+    border: #9aa0a6;
+    box-shadow: 0px 1px 2px 0px #9aa0a6;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem; 
+    background-color: #f2f2f2;
+  }
+
+.dashboard, .calendar {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.dash-btn, .calendar-btn {
+    color: #70757a;
+    text-decoration: none;
+}
+
+@media(max-width: 767px) {
+    #logo{
+        width: 50%;
+    }
+    .search-btn {
+        margin: 40px;
+    }
+}
+
+@media(max-width: 600px) {
+    #logo{
+        width: 100%;
+    }
+
+    .search-bar{
+        width: 350px;
+    }
+
+    .search-btn {
+        margin: 40px;
+    }
+}
